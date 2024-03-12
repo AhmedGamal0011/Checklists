@@ -132,10 +132,15 @@ run -f infosecadventures.allsafe
 # Hardcoded Credentials
 
 Check for
+
 /data/data/package_name/shared_prefs
+
 /data/data/package_name/databases
+
 /data/data/package_name/temp_file
+
 /sdcard
+
 remote-db_link on res-values-strings.xml
 
 # Broadcast Receivers
