@@ -338,7 +338,7 @@ https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Upload%20Insecur
 - intercept the forgot-password request.
 - change host-header to evil server.
 - send request with the victim username.
-- check for the user token in evil server and open it in the browser to change use password.
+- check for the user token in evil server and open it in the browser to change user password.
 2. Authentication bypass through changing Host-header with localhost
 - intercept /admin request
 - change host to localhost
