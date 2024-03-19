@@ -21,6 +21,12 @@ Check connected devices
 adb devices
 ```
 
+to copy file to the emulator
+
+```
+adb push filename /path/
+```
+
 to install app
 
 ```
