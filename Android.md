@@ -71,8 +71,16 @@ to bypass ssl pinning in flutter apps
 // from sudo
 python3 /usr/local/bin/reflutter app.apk
 ```
+then sign the app with uber-apk-signer
 
+```
+java -jar uber-apk-signer-1.3.0.jar --apk release.RE.apk --out app2_signed
+```
+then change file permission
 
+```
+chmod 755 app2_signed
+```
 # apktool
 
 to decompile an apk
