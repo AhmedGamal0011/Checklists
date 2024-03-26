@@ -103,6 +103,17 @@ to run mobsf, then drag and drop the apk
 ./run.sh 0.0.0.0:8000
 ```
 
+#Objection
+
+For Android
+
+https://book.hacktricks.xyz/mobile-pentesting/android-app-pentesting/frida-tutorial/objection-tutorial
+
+For iOS
+
+https://cheatography.com/hnd/cheat-sheets/objection-ios/
+https://www.virtuesecurity.com/kb/ios-frida-objection-pentesting-cheat-sheet/
+
 # Frida
 
 Run frida-server from adb
