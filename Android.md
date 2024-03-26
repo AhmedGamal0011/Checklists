@@ -63,6 +63,15 @@ bypass register by using extras
 adb shell am start -a package_name.VIEW_CREDS2 --ez check_pin false
 ```
 
+# reflutter
+
+to bypass ssl pinning in flutter apps
+
+```
+// from sudo
+python3 /usr/local/bin/reflutter app.apk
+```
+
 
 # apktool
 
