@@ -105,6 +105,9 @@ to run mobsf, then drag and drop the apk
 
 # Objection
 
+```
+/usr/local/bin/objection -g package_name explore
+```
 For Android
 
 https://book.hacktricks.xyz/mobile-pentesting/android-app-pentesting/frida-tutorial/objection-tutorial
