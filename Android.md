@@ -95,6 +95,14 @@ to build app
 apktool b indeed/ -o indeed_patched.apk
 ```
 
+# apkleaks
+
+to search for secrets, endpoints and urls
+
+```
+apkleaks -f app.apk -o results.txt
+```
+
 # MobSF
 
 to run mobsf, then drag and drop the apk
