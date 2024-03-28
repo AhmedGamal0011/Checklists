@@ -392,8 +392,7 @@ https://swisskyrepo.github.io/PayloadsAllTheThingsWeb/OAuth%20Misconfiguration/#
 
 - Try to decode the token and manipulate the user-role to admin
 - Try to manipulate the alg value to none
-- Try to brute force the token key with hashcat
-
+- Try to brute force the token key with hashcat, then hit to JWT.io and sign the key and take the new token
 ```
 hashcat -a 0 -m 16500 token_value jwt.secrets.list
 
